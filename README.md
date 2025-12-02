@@ -26,7 +26,7 @@
 1.  **Docker Desktop**: Ensure Docker is installed and running.
 2.  **LM Studio**:
     *   Download and install [LM Studio](https://lmstudio.ai/).
-    *   Load a model (Recommended: `qwen/qwen3-4b-thinking-2507`).
+    *   Load a model 
     *   **Start the Local Server** on port `1234`.
 
 ### Installation & Run
@@ -65,4 +65,5 @@ docker-compose up --build
   <sub>Developed with ❤️ by Alan Cyril Sunny</sub><br>
   <sub>Powered by in-house Cyclops AI model beta version 2336</sub>
 </div>
+
 
