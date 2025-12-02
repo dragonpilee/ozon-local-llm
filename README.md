@@ -3,7 +3,7 @@
 
 ![Ozon Banner](https://img.shields.io/badge/Status-Beta-blue?style=for-the-badge) ![Docker](https://img.shields.io/badge/Docker-Enabled-2496ED?style=for-the-badge&logo=docker) ![React](https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react) ![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi)
 
-**Ozon** is a premium, Dockerized web application that delivers real-time Air Quality Index (AQI) and weather data based on your live location. It integrates with a local LLM  to provide personalized, structured health advice in a beautiful, glassmorphism-styled interface.
+**Ozon** is a premium, Dockerized web application that delivers real-time Air Quality Index (AQI) and weather data based on your live location. It integrates with a local LLM to provide personalized, structured health advice in a beautiful, glassmorphism-styled interface.
 
 ---
 
@@ -12,7 +12,7 @@
 - **📍 Live Geolocation**: Instantly fetches data for your exact coordinates.
 - **🌫️ Real-time AQI**: Detailed metrics for PM2.5, PM10, NO₂, and Ozone.
 - **🌤️ Weather Conditions**: Current temperature, humidity, and wind speed.
-- **🧠 AI-Powered Insights**: "Cyclops AI"  analyzes data to give actionable health advice.
+- **🧠 AI-Powered Insights**: "Cyclops AI" analyzes data to give actionable health advice.
 - **🗺️ Interactive Map**: Visual location tracking with Leaflet.
 - **🎨 Premium UI**: Dark theme, glassmorphism effects, and "alive" animations.
 - **🐳 Fully Dockerized**: One-command deployment for both frontend and backend.
@@ -25,9 +25,9 @@
 
 1.  **Docker Desktop**: Ensure Docker is installed and running.
 2.  **LM Studio**:
-    *   Download and install [LM Studio](https://lmstudio.ai/).
-    *   Load a model 
-    *   **Start the Local Server** on port `1234`.
+    * Download and install [LM Studio](https://lmstudio.ai/).
+    * Load a model.
+    * **Start the Local Server** on port `1234`.
 
 ### Installation & Run
 
@@ -44,20 +44,22 @@ docker-compose up --build
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technology Stack
 
-*   **Frontend**: React, Vite, Leaflet, CSS Modules (Glassmorphism)
-*   **Backend**: FastAPI, Python, Requests
-*   **AI Integration**:  in-house Cyclops AI model
-*   **Data Sources**: Open-Meteo API (AQI & Weather)
-*   **Containerization**: Docker, Docker Compose
+| Component | Technology |
+|----------|------------|
+| **Frontend** | React, Vite, Leaflet, CSS Modules (Glassmorphism) |
+| **Backend** | FastAPI, Python, Requests |
+| **AI Integration** | In-house Cyclops AI model |
+| **Data Sources** | Open-Meteo API (AQI & Weather) |
+| **Containerization** | Docker, Docker Compose |
 
 ---
 
 ## 📝 Notes
 
-*   **Location Access**: You must allow browser location access for the app to function.
-*   **AI Latency**: Analysis speed depends on your local hardware and the model loaded in LM Studio.
+- **Location Access**: You must allow browser location access for the app to function.
+- **AI Latency**: Analysis speed depends on your local hardware and the model loaded in LM Studio.
 
 ---
 
@@ -65,6 +67,3 @@ docker-compose up --build
   <sub>Developed with ❤️ by Alan Cyril Sunny</sub><br>
   <sub>Powered by in-house Cyclops AI model beta version 2336</sub>
 </div>
-
-
-
