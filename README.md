@@ -3,7 +3,7 @@
 
 ![Ozon Banner](https://img.shields.io/badge/Status-Beta-blue?style=for-the-badge) ![Docker](https://img.shields.io/badge/Docker-Enabled-2496ED?style=for-the-badge&logo=docker) ![React](https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react) ![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi)
 
-**Ozon** is a premium, Dockerized web application that delivers real-time Air Quality Index (AQI) and weather data based on your live location. It integrates with a local LLM (via LM Studio) to provide personalized, structured health advice in a beautiful, glassmorphism-styled interface.
+**Ozon** is a premium, Dockerized web application that delivers real-time Air Quality Index (AQI) and weather data based on your live location. It integrates with a local LLM  to provide personalized, structured health advice in a beautiful, glassmorphism-styled interface.
 
 ---
 
@@ -48,7 +48,7 @@ docker-compose up --build
 
 *   **Frontend**: React, Vite, Leaflet, CSS Modules (Glassmorphism)
 *   **Backend**: FastAPI, Python, Requests
-*   **AI Integration**: OpenAI Client (connected to LM Studio Local Server)
+*   **AI Integration**:  in-house Cyclops AI model
 *   **Data Sources**: Open-Meteo API (AQI & Weather)
 *   **Containerization**: Docker, Docker Compose
 
@@ -65,5 +65,6 @@ docker-compose up --build
   <sub>Developed with ❤️ by Alan Cyril Sunny</sub><br>
   <sub>Powered by in-house Cyclops AI model beta version 2336</sub>
 </div>
+
 
 
